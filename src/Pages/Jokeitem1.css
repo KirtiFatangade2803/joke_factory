@@ -1,0 +1,35 @@
+.joke1 {
+  width: 385px; 
+  margin: 0px 25px 50px 25px;
+ 
+}
+.jokeimg {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+  
+}
+.jokeinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.joketitle {
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: brown;
+    cursor: pointer;
+  }
+  
+.jokecat {
+  font-size: 11px;
+  line-height: 25px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+

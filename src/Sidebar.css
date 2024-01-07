@@ -1,0 +1,52 @@
+.sidebar {
+    flex: 2;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    z-index: 999;
+  }
+  .top_section {
+    width: 100%;
+    height: 90px;
+    margin-top: 35%;
+    display: flex; /* Making the nav bar thing section */
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    z-index: 999;
+  }
+
+  
+  .center_section {
+    margin-right: 120px;
+    text-align: left;
+    
+  }
+  
+  .navitem {
+    padding: 35%;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    color: #000000;
+    list-style-type: none;
+  }
+ 
+  .create_joke{
+      padding: 20px 40px;
+      font-size: 18px;
+      background-color: rgb(219, 193, 28);
+      color: white;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  .create_joke:hover{
+    background-color: rgb(3, 3, 3);
+      color: rgb(219, 193, 28);
+  }
